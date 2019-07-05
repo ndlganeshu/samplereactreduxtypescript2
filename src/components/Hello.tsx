@@ -29,6 +29,7 @@ class Hello extends React.Component<IProps, IState> {
       throw new Error("You could be a little more enthusiastic :D");
     }
     return (
+      <>
       <div className="hello">
         <div className="greeting">
           Hello {name + getExclamationMarks(this.state.currentEnthusiasmLevel)}
@@ -36,6 +37,7 @@ class Hello extends React.Component<IProps, IState> {
         <button onClick={this.onDecrement}>-</button>
         <button onClick={this.onIncrement}>+</button>
       </div>
+      </>
     );
   }
   updateEnthusisasm(currentEnthusiasmLevel: number) {

@@ -4,6 +4,10 @@
   "private": true,
   "dependencies": {
     "@types/react-redux": "^7.0.1",
+    "@uifabric/charting": "^0.28.8",
+    "@uifabric/dashboard": "^0.54.1",
+    "immutable": "^4.0.0-rc.12",
+    "office-ui-fabric-react": "^6.154.0",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
     "react-redux": "^6.0.0",
